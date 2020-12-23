@@ -5,7 +5,7 @@
 body{
     font-size: 0.8rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-color: hsl(240, 5%, 96%);
+    background-color: hsl(202, 27%, 92%);
 }
 h2,h3{
     color:hsl(210, 46%, 95%);
@@ -26,12 +26,12 @@ p{
   
     width: 85%;
     margin: 5em auto;
-
 }
 
 .review-details-1,.review-details-2{
-    padding:2.5em ;
+    padding:1.5em ;
     border-radius: 1em;
+    box-shadow: 10px 5px 20px #d3cfcf;
 }
 .colored-1{
     background-color:hsl(263, 55%, 52%) ;
@@ -127,27 +127,23 @@ background-color: hsl(0, 0%, 100%);
     .row{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+       
     }
     .section-1{
-        width:85%;
+        width:80%;
     }
   
     .column{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-  
-    
-      
     }
     .review{
-        width:100%;
-     
+        width:100%;     
 
     }
     .review-details-1{
-        width:65%;
+        width:60%;
     }
     .colored-1{
         background-position: 25em 0;
@@ -166,6 +162,10 @@ background-color: hsl(0, 0%, 100%);
     margin-top: 0;
 
     }
+    .colored-4
+    {
+        margin-top: 0;
+    }
     .section-2{
         width:30%;
     }
@@ -174,5 +174,6 @@ background-color: hsl(0, 0%, 100%);
         width:75%;
         margin: auto;
     }
+   
 
 }

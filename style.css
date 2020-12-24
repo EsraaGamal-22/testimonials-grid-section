@@ -121,16 +121,18 @@ background-color: hsl(0, 0%, 100%);
         font-size: 0.8rem;
     }
     .container{
-        width: 85%;
+        width: 82%;
         margin:10em auto;
     }
     .row{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+      
        
     }
     .section-1{
-        width:80%;
+        width:75%;
+    
     }
   
     .column{
@@ -167,12 +169,13 @@ background-color: hsl(0, 0%, 100%);
         margin-top: 0;
     }
     .section-2{
-        width:30%;
+        width:20%;
+        
     }
     .sized
     {
-        width:75%;
-        margin: auto;
+        width:100%;
+
     }
    
 
